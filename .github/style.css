@@ -1,0 +1,154 @@
+body, main, div, h1, p, h3, span, button, img{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* background-color: rgb(148, 43, 5); */
+
+}
+
+main {
+    background-color: #2343f7;
+    /* max-width: 1000px; */
+    margin: 0 auto;
+    font-family: Rampart One;
+}
+
+h1 {
+    text-align: center;
+    padding: 50px;
+    font-size: 4rem;
+    color: rgb(253, 182, 51);
+}
+
+.placar {
+    text-align: center;
+    margin: 0 auto;
+    width: 80%;
+    padding: 10px;
+}
+
+.placar h3 {
+    font-size: 2rem;
+    color: rgb(253, 224, 170);
+    
+}
+
+.placar__players {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    justify-content: space-around;
+}
+
+.placar__players--text {
+    letter-spacing: 2px;
+    color: rgb(253, 224, 170);
+    font-size: 1.5rem;
+}
+
+.imagem__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.subtitulo {
+    text-align: center;
+    font-style: italic;
+    color: rgb(248, 192, 89);
+}
+
+.imagem {
+    width: 66px;
+    margin: 28px;
+}
+
+.ring__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.ring {
+    width: 100px;
+    height: 100px;
+}
+
+.ring__versus {
+    font-size: 4rem;
+    color: red;
+    position: relative;
+    letter-spacing: -10px;
+}
+
+.vitoria {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 3rem;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.reset {
+    padding: 50px;
+}
+
+.reset button{
+    font-size: 20px;
+    font-family: Rampart One;
+    background-color: rgb(253, 182, 51);
+    color: #2343f7;
+    padding: 8px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    margin: 40px auto;
+    display: block;
+}
+
+@media screen and (min-width: 790px) {
+    
+    .placar__players {
+        justify-content: space-evenly;
+    }
+
+    .imagem {
+        width: 120px;
+        margin: 14px 76px;
+    }
+
+    .ring {
+        zoom: 60%;
+    }
+
+    .ring__container {
+        align-items: center;
+    }
+
+    .ring__player img {
+        position: relative;
+        right: 182px;
+    }
+
+    .ring__pc img {
+        position: relative;
+        left: 30px;
+
+    }
+
+    .vitoria {
+        font-size: 5rem;
+    }
+
+    .ring__versus {
+        font-size: 6rem;
+    }
+}
+
+
+
+

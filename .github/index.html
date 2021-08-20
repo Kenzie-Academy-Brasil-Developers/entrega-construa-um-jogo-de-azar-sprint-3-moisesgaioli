@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rampart+One&display=swap" rel="stylesheet">
+    <title>Jo-ken-pô</title>
+</head>
+<body>
+    
+    <main>
+
+        <h1>Jo-ken-pô</h1>
+
+        <section class="placar">
+            <h3 class="placar__titulo">Placar</h3>
+            <div class="placar__players">
+                <p class="placar__players--text">Você: <span class="placar__jogador">0</span></p>
+                <p class="placar__players--text">PC: <span class="placar__pc">0</span></p>
+            </div>
+        </section>
+
+        <h2 class="subtitulo">Escolha uma das opções para jogar:</h2>
+        <section class="imagem__container">
+            <img class="imagem" id="pedra" src="./img/./pedra.png" alt="pedra">
+            <img class="imagem" id="papel" src="./img/./papel.png" alt="papel">
+            <img class="imagem" id="tesoura" src="./img/./tesoura.png" alt="tesoura">
+        </section>
+
+        <section class="ring__container">
+            <div class="ring ring__player"></div>
+            <p class="ring__versus">VS</p>
+            <div class="ring ring__pc"></div>
+        </section>
+        
+        <p class="vitoria"></p>
+        
+        <section class="reset">
+            <button class="reset__button">Resetar</button>
+        </section>
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+</html>
